@@ -6,7 +6,9 @@ body{
     scroll-behavior: smooth;
     /* background-color: #ff305b; */
 }
-
+.navbar .nav-link.active{
+    color: #e65f78;
+}
 .navbar a,li{
 
     color: black;
@@ -343,19 +345,19 @@ opacity: 1;
 
 
 /* contact */
-#contact .contactHead .contactTitle{
+#scrollspycontact .contactHead .contactTitle{
     font-weight: bold;
 
 }
-#contact .contactCard i{
+#scrollspycontact .contactCard i{
     font-size: 40px;
     color: #e65f78;
 }
-#contact .contactLast .bo{
+#scrollspycontact .contactLast .bo{
     direction: rtl;
 
 }
-#contact .contactLast .bo .btn{
+#scrollspycontact .contactLast .bo .btn{
     background-color: #e65f78;
     color: #eee;
     font-weight: bold;
